@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profitCalculator>
+    <taxRate>.10</taxRate>
+    <promoRate>3</promoRate>
+    <shippingFee>7.00</shippingFee>
+</profitCalculator>

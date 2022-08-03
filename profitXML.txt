@@ -1,0 +1,3 @@
+taxRate=.10
+promoRate=2
+shippingFee=7

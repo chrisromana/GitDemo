@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profit Calculator</title>
+</head>
+<link rel="stylesheet" href="profit_calculator.css">
+
+
+<div style="width: 100%; height: 420px;">
+
+    <div id="corner">
+        <form id="firstForm">
+            <label for="cost">Cost</label>
+            <input type="number" id="cost" name="cost" tabindex="1"></input><br>
+            <label for="tax">Tax:</label>
+            <input type="number" id="tax" class="fixSetup" name="tax" value="" tabindex="-1" disabled ><br>
+            <label for="totalCost">Total Cost</label>
+            <input type="number" id="totalCost" name="totalCost" tabindex="-1" disabled><br>
+            <label for="sellingPrice" >Selling Price</label>
+            <input type="number" id="sellingPrice" name="sellingPrice" tabindex="2"><br>
+            <label for="ebayFee">Ebay Fee:</label>
+            <input type="number" id="ebayFee" name="ebayFee" value="" tabindex="-1" disabled><br>
+            <label class=""for="shippingFee">Shipping Fee:</label>
+            <input type="number" id="shippingFee" name="shippingFee" value="7" tabindex="3"><br>
+            <label for="promoRate">Promotion Rate</label>
+            <input type="number" id="promoRate" name="promoRate" value="2" tabindex="4"><br>
+            <label for="promoAmount">Promotion Amount</label>
+            <input type="number" id="promoAmount" name="promoAmount" value="" tabindex="-1" disabled><br>
+            <label for="totalFees">Total Fees</label>
+            <input type="number" id="totalFees" name="totalFees" value="" tabindex="-1" disabled><br>
+            <label for="grossProfit">Gross Profit</label>
+            <input type="number" id="grossProfit" name="grossProfit" value="" tabindex="-1" disabled><br>
+            <label for="netProfit">Net Profit</label>
+            <input type="number" id="netProfit" name="netProfit" value="" tabindex="-1" disabled><br>
+            <label for="netRate">Net Profit Rate</label>
+            <input type="number" id="netRate" name="netRate" value="" tabindex="-1" disabled>%<br>
+        </form>
+    </div>
+    
+</div>
+
+<div id="control">
+    <button id="submit" type="button">Submit</button>
+    <button id="reset" type="button">Reset</button>
+</div>
+
+<script src="profit_calculator.js"></script>
+
+</html>
